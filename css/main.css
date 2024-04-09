@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.open-sans-konstraktRegular {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    }
+
+.open-sans-konstraktSemiBold {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    }
+
+.open-sans-konstraktBold {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    }
+
+.open-sans-konstraktExtraBold {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    }
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+body{
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.firstScreen {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/roof.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.logo {
+    text-align: center;
+    margin-top: 40px;
+}
+.textTitle {
+    font-size: 60px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+.textSubTitle {
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+.scroll {
+    font-size: 11px;
+    letter-spacing: 0.34em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 70px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.topMenu{
+    margin-bottom: 60px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 20px;
+}
+.topMenuWrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.topMenuLogo {
+    padding: 25px 5px;
+}
+.nav {
+    font-size: 12px;
+    letter-spacing: 0.09em;
+    text-align: center;
+    color: #48555b;
+    text-transform: uppercase;
+    /* max-width: 440px; */
+    flex-basis: 440px;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav li{
+    padding: 25px 5px;
+}
+
+.nav a:hover, 
+.active {
+    color: #00a4e5;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+}
+
+.ourStory {
+    margin-bottom: 120px;
+}
+.ourStorytitle {
+    font-size: 18px;
+    letter-spacing: 0.13em;
+    text-align: center;
+    color: #48555b;
+    text-transform: uppercase;
+    margin-bottom: 90px;
+    position: relative;
+}
+
+.ourStorytitle::after{
+    content:"";
+    width: 50px;
+    height: 2px;
+    background-color: #00A4E5;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ourStorySubTitle {
+    display: flex;
+    flex-wrap: wrap;
+}
+.subTitleLeft {
+    flex-basis: 50%;
+}
+.subTitleLeftTitle {
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    color: #48555b;
+    margin-bottom: 20px;
+    padding-right: 77px;
+}
+.runPageKonstruct {
+    letter-spacing: 0.01em;
+    color: #16ace8;
+}
+.subTitleLeftText {
+    padding-right: 77px;
+}
+.subTitleRight {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    font-size: 24px;
+    line-height: 121%;
+    letter-spacing: 0.01em;
+    color: #fff;
+    text-transform: uppercase;
+    width: 140px;
+    height: 224px;
+    padding: 15px;
+}
+.card1 {
+    background-image: url(../img/school.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card2 {
+    background-image: url(../img/laptop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card3 {
+    background-image: url(../img/metal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ourCapability {
+    margin-bottom: 115px;
+}
+.ourCapabilityHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.headerTitle {
+    font-size: 18px;
+    letter-spacing: 0.13em;
+    color: #48555b;
+    flex-basis: 250px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.headerTitle::after {
+    content:"";
+    width: 50px;
+    height: 2px;
+    background-color: #00A4E5;
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
+
+.headerText {
+    font-size: 11px;
+    line-height: 173%;
+    letter-spacing: 0.02em;
+    color: #48555b;
+    flex-basis: 405px;
+}
+.headerBtn {
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    background-color: #00A4E5;
+    line-height: 40px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.ourCapabilityCards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item {
+    width: 295px;
+    height: 330px;
+    border: 1px solid #e6e6e6;
+    padding: 40px 25px;
+}
+
+.item img{
+    margin-bottom: 25px;
+}
+
+.item1 {
+}
+.title {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #48555b;
+    margin-bottom: 13px;
+    text-transform: uppercase;
+}
+.text {
+    font-size: 13px;
+    line-height: 177%;
+    letter-spacing: 0.01em;
+    color: #48555b;
+}
+.item2 {
+}
+.item3 {
+}
+
+.touch {
+    background-image: url(../img/buildings.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-position: 0 -1px;
+}
+.touchItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.touchItemTitle {
+    font-size: 30px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    color: #48555b;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.touchItemBtn {
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    background-color: #00A4E5;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.signup {
+    height: 100px;
+    background: #171819;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signupWrap {
+    display: flex;
+}
+.signupWrapTitle {
+    font-size: 22px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    margin-right: 70px;
+    line-height: 40px;
+}
+.signupWrap input{
+    display: inline-block;
+}
+.signupWrap input[type="email"]{
+    border: 1px solid #979797;
+    width: 250px;
+    height: 40px;
+    padding-left: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    color: #48555b;
+}
+.signupWrap input[type="email"]:focus{
+    outline: 3px solid #00A4E5;
+}
+.signupWrap input[type="email"]::placeholder{
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    color: #48555b;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+.signupWrap input[type="submit"]{
+    width: 150px;
+    height: 40px;
+    background: #00a4e5;
+    border: 1px solid #00a4e5;
+    cursor: pointer;
+
+}
+
+.signupWrap input[value]{
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.footer {
+    background: #141a20;
+    color:#fff;
+}
+.footerWrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.iners {
+}
+.company {
+    flex-basis: 250px;
+    margin: 40px 70px 50px 0;
+}
+.companyTitle {
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    margin-bottom: 20px;
+}
+.companyLogo {
+    margin-bottom: 15px;
+}
+.companyText {
+    font-size: 11px;
+    line-height: 173%;
+    letter-spacing: 0.08em;
+}
+.links {
+    margin-right: 35px;
+}
+.linksTitle {
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+.footerNav {
+    font-size: 11px;
+    line-height: 227%;
+    letter-spacing: 0.08em;
+}
+.footerNav li{
+    list-style: none;
+}
+.faq {
+}
+.faqNav {
+}
+.faqNav li{
+    list-style: none;
+}
+.blog {
+}
+.blogNav {
+}
+.blogNav li{
+    list-style: none;
+}
+.contact {
+}
+.contactTitle {
+}
+.contactAdress {
+}
+.contactPhone {
+}
+.contactEmail {
+}
+.socium {
+}
+
+.copy{
+    background: #171819;
+    height: 60px;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    color: #fff;
+    line-height: 60px;
+    text-align: center;
+}
